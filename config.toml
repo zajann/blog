@@ -3,15 +3,16 @@ baseurl = "https://zajann.github.io/"
 languageCode = "ko-kr"
 title = "zajan's devnote"
 theme = "hugo-theme-cactus-plus"
-googleAnalytics = "your_google_analytics_id"
+googleAnalytics = "UA-157313054-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
+summaryLength = 70
 
 [params]
 	author = "zajan"
 	description = "zajan's dev note"
-	bio = "💘Enjoy coding. It's fun to find something new. Happy with what i'm doing. Want to be a jolly digger ⛏️🤟"
-    avatar = "images/avatar.png"
+	bio = "Want to be a jolly digger 🤠"
+	avatar = "images/avatar.png"
 
 	twitter = "your_twitter_id"
 	facebook = "your_facebook_id"
@@ -19,8 +20,8 @@ hasCJKLanguage = true
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = false
-	disqusShortname = "your_disqus_short_name"
+	enableDisqus = true
+	disqusShortname = "zajann-github-io"
 
 
 	enableSummary = true
@@ -54,7 +55,7 @@ hasCJKLanguage = true
 	readMore = ""
 
 	# Share
-	enableShare = true
+	enableShare = false
 	tweet = ""
 	share = ""
 

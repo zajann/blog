@@ -213,20 +213,20 @@ nav.main-nav a.cta {
       border-radius: 3px;
   }
 }
-@media (max-width: 324px) {
+@media (max-width: 420px) {
     nav.main-nav a.cta {
       display: none;
     }
 }
 
 #wrapper {
-    max-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 60px 20px 100px 20px;
 }
 
 #wrapper.home {
-    max-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 0px 40px 20px 40px;
 }
@@ -548,7 +548,7 @@ Post List
 #header {
 }
 #wrapper.post {
-    max-width: 670px;
+    max-width: 750px;
 }
 .post {
     margin: auto;
