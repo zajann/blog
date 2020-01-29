@@ -6,6 +6,11 @@
         <i class="fa fa-{{ $key }}"></i>
     </a>
     {{ end }}
+    {{ if .Site.Params.enableRSS }}
+    <a class="symbol" href="{{ .Site.RSSLink }}">
+        <i class="fa fa-rss-square"></i>
+    </a>
+    {{ end }}
 
 {{ else }}
 	
