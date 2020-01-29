@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.zajan-dev.com/"
+baseurl = "https://zajan-dev.com/"
 languageCode = "ko-kr"
 title = "zajan's devnote"
 theme = "hugo-theme-cactus-plus"
