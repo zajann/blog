@@ -7,9 +7,6 @@ categories = [""]
 +++
 
 hugo와 github을 처음 시작하는 비전공자를 위한 튜토리얼
----
-
-
 
 ## 1. 두개의 repository 생성
 
