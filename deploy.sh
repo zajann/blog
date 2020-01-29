@@ -8,6 +8,9 @@ hugo -t hugo-theme-cactus-plus
 # Go To Public folder
 cd public
 
+# pull before commit
+git pull origin master
+
 # Add changes to git.
 git add .
 
@@ -23,6 +26,9 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+# pull before commit
+git pull origin master
 
 # blog repository Commit & Push
 git add .
