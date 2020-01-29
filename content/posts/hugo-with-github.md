@@ -1,5 +1,5 @@
 +++
-title = "Hugo With Github"
+title = "Hugo와 Github을 이용한 블로그 개설하기 - 1"
 date = 2020-01-29T19:49:31+09:00
 tags = [""]
 categories = [""]
