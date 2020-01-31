@@ -11,10 +11,12 @@
 		{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 
     {{ if .IsHome }}
-    <meta name="og:title" content="{{ .Title }}">
-    <meta name="og:author" content="{{ .Site.Params.author }}">
-    <meta name="og:description" content="{{ .Site.Params.description }}">
-    <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:author" content="{{ .Site.Params.author }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}">
     {{ else }}
     {{ template "_internal/opengraph.html" . }}
     {{ end }}
