@@ -9,6 +9,16 @@
 		{{ end }}
 		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 		{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+    {{ if .IsHome }}
+    <meta name="og:title" content="{{ .Title }}">
+    <meta name="og:author" content="{{ .Site.Params.author }}">
+    <meta name="og:description" content="{{ .Site.Params.description }}">
+    <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}">
+    {{ else }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ end }}
+
 		{{ .Hugo.Generator }}
 		<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
