@@ -8,7 +8,7 @@
 		<div class="archive">
 			<h3>{{ .Key }}</h3>
 			<ul>
-					{{ range .Pages }}
+					{{ range where .Pages "Params.hidden" "ne" "true" }}
 					<div class="post-item">
 						<div class="post-time">{{ .Date.Format "Jan 2" }}</div>
 						<a href="{{ .Permalink }}" class="post-link">

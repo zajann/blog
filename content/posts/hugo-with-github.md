@@ -3,7 +3,7 @@ title = "Hugo와 Github을 이용한 블로그 개설하기 - 1"
 date = 2020-01-29T19:49:31+09:00
 tags = [""]
 categories = [""]
-
+hidden = true
 +++
 
 hugo와 github을 처음 시작하는 비전공자를 위한 튜토리얼

@@ -4,5 +4,5 @@ date = {{ .Date }}
 tags = [""]
 categories = [""]
 draft = true
-
+hidden = false
 +++
