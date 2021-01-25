@@ -15,6 +15,10 @@ git submodule foreach git checkout master
 git submodule foreach git pull origin master 
 ```
 
+## Dependancy
+- go
+- hugo (brew install hugo)
+
 ## Deploy
 ```bash
 ./deploy.sh "commit message"
