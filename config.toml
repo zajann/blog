@@ -8,6 +8,7 @@ googleAnalytics = "UA-157313054-1"
 hasCJKLanguage = true
 summaryLength = 70
 enableRobotsTXT = true
+pygmentsUseClasses = true
 
 [params]
 	author = "zajan"
@@ -35,7 +36,7 @@ enableRobotsTXT = true
 	enableTwitterCard = false
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = []
+	customCSS = ["css/syntax.css"]
 	customJS  = []
 
 	# The variables below are optionally too and can be used to
