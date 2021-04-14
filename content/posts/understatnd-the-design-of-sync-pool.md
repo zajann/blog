@@ -7,7 +7,7 @@ draft = false
 
 +++
 
-> 이 포스트는 [Go: Understand the Design of Sync.Pool](https://medium.com/a-journey-with-go/go-understand-the-design-of-sync-pool-2dde3024e277) 블로그 포스트를 번역한 것으로 오역 또는 의역이 포함될 수 있습니다.
+> _이 포스트는 [Go: Understand the Design of Sync.Pool](https://medium.com/a-journey-with-go/go-understand-the-design-of-sync-pool-2dde3024e277) 블로그 포스트를 번역한 것으로 오역 또는 의역이 포함될 수 있습니다._
 
 이 글은 Go.1.12과 1.13 버전에 기반하고 두 버전 사이의 `sync/pool.go` 의 변화를 설명한다.
 
